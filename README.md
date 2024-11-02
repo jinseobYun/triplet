@@ -1,5 +1,6 @@
 <h1 style="text-align: center;">Triplet</h1>
 
+---
 ## 팀 소개
 <table>
   <tr>
@@ -39,17 +40,35 @@
 ## 프로젝트 소개
 #### Triplet은 여행 예산 계획과 여행 결제 내역을 카테고리 별로 분류해 예산 관리를 돕고, 다른 사람의 여행 예산 사용 내역을 참고할 수 있어 예산 계획에 도움을 주는 여행 예산 관리 애플리케이션 입니다. 
 
+### 기획 배경 
+
+여행을 처음 준비하는 사람들은 예상 비용을 파악하는 데 많은 시간을 소비합니다. 인터넷에서 예산 정보를 찾아보지만 최신 정보가 부족하고, 오래된 정보는 신뢰성이 떨어지는 경우가 많습니다. 또한 여행 중 설계한 예산에 맞춰 지출을 관리하는 것이 어려워 예산을 초과하는 일이 빈번하게 발생합니다. 여행이 끝난 후에는 어디에 돈을 썼는지 기억하지 못해 가계부를 작성하거나 여행 기록을 정리하는 데 어려움을 겪기도 합니다.
+
+이러한 문제를 해결하기 위해 사용자의 나이, 여행한 나라, 성별 등 비슷한 조건을 가진 사람들의 여행 데이터를 기반으로 다른 사람들의 공유된 여행을 추천받거나, 여행 국가와 카테고리별로 예산 등을 입력해 여행을 생성해 해당 여행의 결제 내역을 자동으로 분류하고, 실시간으로 예산 사용 현황을 확인하며 여행 지출 내역을 기록하고 확인 할 수 있는 서비스를 기획하게 되었습니다. 
+
 ### 주요 기능
 
-- 여행 계좌 개설
-- QR 간편 결제
-- 환전, 외화 계좌 관리
-- 모임 통장
-- 카테고리별 예산 설정
-- 결제 시 카테고리 자동 분류, 여행 중 실시간 지출 내역 확인
-- 여행 예산 내역 공유
+---
+
+- *다중 통화 계좌 관리*: 원화 계좌 및 USD, JPY 등 7개의 외화 계좌 개설 및 관리
+- *여행 계좌 개설 및 관리*: 여행 전용 계좌를 개설해 예산 관리 최적화
+- *QR 간편 결제*: QR 코드로 빠르고 쉽게 결제
+- *원화 송금 및 환전*: 간편한 원화 송금 및 외화 환전 기능 제공
+- *모임 통장*: 공동 예산 관리가 가능한 모임 통장 기능
+- *외화 계좌 관리*: 외화 계좌의 잔액 및 환전 내역 관리
+- *카테고리별 예산 설정*: 지출 카테고리별로 예산을 설정하고 관리
+- *실시간 예산 사용 내역 저장*: 여행 중 발생한 지출 내역을 자동으로 저장
+- *여행지 및 예산 추천*: 비슷한 조건을 가진 사람들이 공유한 여행지와 예산 추천
+- *자동 분류 및 실시간 지출 확인*: 결제 시 지출 내역을 자동 분류하고, 실시간으로 지출 현황 확인
+- *여행 예산 내역 공유*: 여행이 끝난 후 예산 사용 내역을 쉽게 공유
+- *모임 통장 및 여행 관리*: 모임 통장과 여행 계좌를 통합 관리하며, QR 결제 및 카테고리 예산 설정 기능 지원
+
+---
 
 ### 서비스 화면
+
+---
+
 | 로그인 화면 | 메인 화면 | 내 여행 목록 |
 |----------|-----------| ---------- |
 | <img src="https://github.com/user-attachments/assets/acd1eb6c-11ad-410e-8050-5c17e5526d1f" width="250" height="500" /> | <img src="https://github.com/user-attachments/assets/2de0769e-848f-41b3-b331-bd104ef34ba0" width="250" height="500" /> | <img src="https://github.com/user-attachments/assets/13f66f50-4b07-4232-8aa8-16bd28bd7edc" width="250" height="500" /> |
@@ -62,11 +81,25 @@
 |---------------|---------------|
 | <img src="https://github.com/user-attachments/assets/ecd3e245-9d21-4ca2-b6ce-407025912b83" width="250" height="500" /> | <img src="https://github.com/user-attachments/assets/807a1238-48c7-4f2a-9747-87f6289eaa76" width="250" height="500" /> |
 
-
-
+---
 ### 서비스 아키텍처
-![image](https://github.com/user-attachments/assets/8867cb41-0003-47a2-8960-9de6eb21367c)
-![image](https://github.com/user-attachments/assets/0c73f0d0-0ada-4683-9927-f6d65499c6cc)
+---
+![image](https://github.com/user-attachments/assets/5c77918b-4bd4-4bb2-8de1-93977df34be4)
+
+![image](https://github.com/user-attachments/assets/ee2c28a9-72ab-4f21-bdc6-160873b4b2bf)
+
+---
+
+## 산출물
+
+---
+
+| API 설계 | 화면 설계 | ERD |
+|---|---|---|
+![image](https://github.com/user-attachments/assets/82d6fa20-b914-425c-8de4-fc9e91072c4d) | ![image](https://github.com/user-attachments/assets/4ecbb124-85e4-4432-bbf1-2205f4e17dfd) |![image](https://github.com/user-attachments/assets/6b3ab396-12ca-41a8-a32c-442500f12037)
+
+---
+
 
 ## 프로젝트 구조
 ### EC2
