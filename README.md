@@ -1,5 +1,4 @@
 <h1 style="text-align: center;">Triplet</h1>
----
 
 ### 개발 일정
 - 2024.08.22 ~ 2024.10.11 (8주)
