@@ -81,6 +81,11 @@
 
 ---
 
+#### 시연 영상
+
+https://github.com/user-attachments/assets/bc487b78-b772-42bd-beda-46f0f724b076
+
+
 | 로그인 화면 | 메인 화면 | 내 여행 목록 |
 |----------|-----------| ---------- |
 | <img src="https://github.com/user-attachments/assets/acd1eb6c-11ad-410e-8050-5c17e5526d1f" width="250" height="500" /> | <img src="https://github.com/user-attachments/assets/2de0769e-848f-41b3-b331-bd104ef34ba0" width="250" height="500" /> | <img src="https://github.com/user-attachments/assets/13f66f50-4b07-4232-8aa8-16bd28bd7edc" width="250" height="500" /> |
